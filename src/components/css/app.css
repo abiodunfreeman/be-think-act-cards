@@ -3,6 +3,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 10px;
+  gap: 20px;
 }
 
 .App h1 {
