@@ -1,24 +1,33 @@
-.card--container{
-    border: 8px solid;
-    padding: 10px 50px 50px 50px;
-    margin-bottom: 50px;
-    max-width: 400px;
-
-    h1 {
-        text-align:center;
-    }
-    p{
-        text-align: justify;
-    }
+.card--container {
+  border: 8px solid;
+  padding: 20px 50px 50px 50px;
+  margin-bottom: 50px;
+  max-width: 400px;
+  min-height: 600px;
+  position: relative;
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  button {
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 0 10px;
+  }
 }
 
-
-.think{
-    border-color: lightblue;
+.think {
+  border-color: lightblue;
 }
-.act{
-    border-color: green;
+.act {
+  border-color: green;
 }
-.be{
-    border-color:darkblue;
+.be {
+  border-color: darkblue;
 }

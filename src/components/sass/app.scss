@@ -1,6 +1,14 @@
-#content--container{
-    border: 5px solid red;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+#content--container {
+  border: 5px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.App {
+  h1 {
+    text-align: center;
+  }
+}
+.card--display--container{
+  border: 3px solid black;
 }

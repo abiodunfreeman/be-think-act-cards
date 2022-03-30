@@ -5,4 +5,12 @@
   flex-wrap: wrap;
 }
 
+.App h1 {
+  text-align: center;
+}
+
+.card--display--container {
+  border: 3px solid black;
+}
+
 /*# sourceMappingURL=app.css.map */
