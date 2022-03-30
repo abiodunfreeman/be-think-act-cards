@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Mono:ital,wght@0,300;1,600&display=swap");
+$think-primary-color: lightblue;
+$be-primary-color: darkblue;
+$act-primary-color: lightgreen;
 .card--container {
-  border: 8px solid;
+  border: 12px solid;
   padding: 20px 50px 50px 50px;
   max-width: 400px;
   min-height: 600px;
   position: relative;
+  background-color: #fbfbfd;
 
   h1 {
     text-align: center;
@@ -33,11 +37,20 @@
 }
 
 .think {
-  border-color: lightblue;
+  border-color: $think-primary-color;
+  button {
+    border-color: $think-primary-color;
+  }
 }
 .act {
-  border-color: green;
+  border-color: $act-primary-color;
+  button {
+    border-color: $act-primary-color;
+  }
 }
 .be {
-  border-color: darkblue;
+  border-color: $be-primary-color;
+  button {
+    border-color: $be-primary-color;
+  }
 }

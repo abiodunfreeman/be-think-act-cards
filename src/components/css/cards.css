@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Mono:ital,wght@0,300;1,600&display=swap");
 .card--container {
-  border: 8px solid;
+  border: 12px solid;
   padding: 20px 50px 50px 50px;
   max-width: 400px;
   min-height: 600px;
   position: relative;
+  background-color: #fbfbfd;
 }
 .card--container h1 {
   text-align: center;
@@ -33,12 +34,21 @@
 .think {
   border-color: lightblue;
 }
+.think button {
+  border-color: lightblue;
+}
 
 .act {
-  border-color: green;
+  border-color: lightgreen;
+}
+.act button {
+  border-color: lightgreen;
 }
 
 .be {
+  border-color: darkblue;
+}
+.be button {
   border-color: darkblue;
 }
 
