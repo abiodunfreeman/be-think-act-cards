@@ -69,6 +69,7 @@ function App() {
         {beCardsJSX[count.be]}
         {actCardsJSX[count.act]}
       </div>
+      <h3>{window.innerWidth}</h3>
     </div>
   );
 }
