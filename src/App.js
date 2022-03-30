@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './components/css/app.css';
+import Cards from './components/Cards';
+import cardsData from "./components/data"
 
 function App() {
+  const jsx = cardsData.map(card => {
+    // let text = card.desc.replace(/\n/g, <br/>)
+    
+    return <Cards title={card.title} desc={card.desc} type={card.type} key={card.title}/>
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>be-think-<br/>act</h1>
+      <h2>"hi"</h2>
+      <div id="content--container">
+       {jsx}
+      </div>
+      
     </div>
   );
 }

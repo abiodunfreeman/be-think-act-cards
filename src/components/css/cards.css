@@ -1,0 +1,26 @@
+.card--container {
+  border: 8px solid;
+  padding: 10px 50px 50px 50px;
+  margin-bottom: 50px;
+  max-width: 400px;
+}
+.card--container h1 {
+  text-align: center;
+}
+.card--container p {
+  text-align: justify;
+}
+
+.think {
+  border-color: lightblue;
+}
+
+.act {
+  border-color: green;
+}
+
+.be {
+  border-color: darkblue;
+}
+
+/*# sourceMappingURL=cards.css.map */
