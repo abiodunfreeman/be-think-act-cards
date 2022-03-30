@@ -31,18 +31,17 @@ function App() {
   function handleNextCard(props) {
     const { title, type } = props;
     console.log(`"${title}" is a ${type} card`);
-    let curCard; // inits curCard and sets it to
+    let curCardJSX; // inits curCardJSX and sets it to
     if (type === "think") {
-      curCard = thinkCardsJSX;
+      curCardJSX = thinkCardsJSX;
     } else if (type === "be") {
-      curCard = beCardsJSX;
+      curCardJSX = beCardsJSX;
     } else if (type === "act") {
-      curCard = actCardsJSX;
+      curCardJSX = actCardsJSX;
     }
-    console.log(count[type] + " - count[type]");
-    console.log(curCard.length - 1 + " - curCard.length");
-    if (count[type] >= curCard.length - 1) {
-      // if count[type] is greateer than length available cards of [type], resest count[type] to zero
+
+    if (count[type] >= curCardJSX.length - 1) {
+      // if count[type] is greateer than length available cards of [type]CardsJSX, resest count[type] to zero
       setCount((prevCount) => {
         return {
           ...prevCount,
@@ -58,21 +57,17 @@ function App() {
         };
       });
     }
-
-    console.log(curCard);
   }
   useEffect(() => {
     console.log(count);
   }, [count]);
   return (
     <div className="App">
-      <h1>Think Be Act</h1>
+      <h1>Think-Be-Act</h1>
       <div id="content--container">
         {thinkCardsJSX[count.think]}
-
-        {actCardsJSX[count.act]}
-
         {beCardsJSX[count.be]}
+        {actCardsJSX[count.act]}
       </div>
     </div>
   );

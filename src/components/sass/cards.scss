@@ -1,17 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Mono:ital,wght@0,300;1,600&display=swap");
 .card--container {
   border: 8px solid;
   padding: 20px 50px 50px 50px;
-  margin-bottom: 50px;
   max-width: 400px;
   min-height: 600px;
   position: relative;
+
   h1 {
     text-align: center;
     margin-bottom: 15px;
+    font-family: "Indie Flower", cursive;
+    min-height: 100px;
+    // border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px black;
   }
   p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "Red Hat Mono", monospace;
+    font-weight: 300;
   }
   button {
     cursor: pointer;

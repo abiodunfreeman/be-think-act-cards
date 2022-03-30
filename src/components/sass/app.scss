@@ -3,12 +3,13 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 10px;
 }
 .App {
   h1 {
     text-align: center;
   }
 }
-.card--display--container{
+.card--display--container {
   border: 3px solid black;
 }
