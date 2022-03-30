@@ -11,6 +11,6 @@ A simple project to help increase mindfulness in day to day life
 
 ### Links
 
-[Live Preview](https://wondrous-pony-d30df4.netlify.app/)
-[github](https://github.com/bornduringwar/be-think-act-cards)
+[Live Preview](https://wondrous-pony-d30df4.netlify.app/) <br/>
+[github](https://github.com/bornduringwar/be-think-act-cards)<br/>
 [twitter](https://twitter.com/bornduringwar)
