@@ -2,6 +2,7 @@ import "./components/css/app.css";
 import Cards from "./components/Cards";
 import cardsData from "./components/data";
 import { useEffect, useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const cardJSX = cardsData.map((card) => {
@@ -69,7 +70,7 @@ function App() {
         {beCardsJSX[count.be]}
         {actCardsJSX[count.act]}
       </div>
-      <h3>{window.innerWidth}</h3>
+      <Footer />
     </div>
   );
 }
