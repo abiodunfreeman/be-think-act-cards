@@ -4,7 +4,7 @@ export default function Cards(props) {
   const { title, desc, type, handleClick } = props;
   const cardClass = `card--container ${type}`;
   return (
-    <div className={cardClass} onClick={() => handleClick(props)}>
+    <div className={cardClass}>
       <h1>{title}</h1>
       {desc}
       <button type="button" onClick={() => handleClick(props)}>
