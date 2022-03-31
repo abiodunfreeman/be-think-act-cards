@@ -168,5 +168,142 @@ const cardsData = [
       </p>
     ),
   },
+  {
+    title: "Arms Up",
+    type: "be",
+    desc: (
+      <p>
+        Sit or stand comfortably, with your arms at your sides.
+        <br />
+        <br />
+        Become aware of the pull of gravity and any other sensations in your
+        hands and arms.
+        <br />
+        <br />
+        Continue to pay attention to these sensations as you slowly rais your
+        arms in front of you, and then slowly lower them.
+        <br />
+        <br />
+        Repeat 4-5 times.
+      </p>
+    ),
+  },
+  {
+    title: "Unnotices Sounds",
+    type: "be",
+    desc: (
+      <p>
+        Listen today for sounds that you're usually not aware of.
+        <br />
+        <br />
+        For Example, your shoes as you slip them on, an orange as you peel it,
+        or the wind chimes in your neighborhood.
+        <br />
+        <br />
+        The sounds might be quite subtle and easily missed.
+        <br />
+        <br />
+        What happens when you pay attention to parts of your life that usually
+        go unnoticed?
+      </p>
+    ),
+  },
+  {
+    title: "Breaking the Worry Cycle",
+    type: "be",
+    desc: (
+      <p>
+        Worry is often drive by the question, "What if _____ happens?" where the
+        blank is anything we might be afraid of.
+        <br />
+        <br />
+        You can break the cycle of worry by not arguing with your "what if."
+        <br />
+        <br />
+        Instead, tell yourself, "That might happen, and I would have to deal
+        with it if it did."
+        <br />
+        <br />
+        Then, bring your focus to what is actually happening in that moment.
+      </p>
+    ),
+  },
+  {
+    title: "Thank You, Good Night",
+    type: "be",
+    desc: (
+      <p>
+        Place a pen and paper by your bed
+        <br />
+        <br />
+        Just before you go to bed tonight, write down 3 things you're grateful
+        for about your day.
+        <br />
+        <br />
+        Your gratitude list might include the peopel you love, daily experiences
+        (like the food you eat), something that went well today, or whatever you
+        like.
+        <br />
+        <br />
+        Allow what you write to fill your mind as you turn off the light and go
+        to sleep.
+      </p>
+    ),
+  },
+  {
+    title: "Breath Minute",
+    type: "be",
+    desc: (
+      <p>
+        Set a 1-minute timer.
+        <br />
+        <br />
+        Take nice even breaths, really slowing down the exhalation, for 1
+        minute, and count how many breaths you take.
+        <br />
+        <br />
+        When you find yourself feeling stressed or worried, pause and take that
+        number (a minuet's worth) of slow, claming breaths-no need to use a
+        timer.
+        <br />
+        <br />
+        Notice if the mind starts to settle simpoly by returning to the breath.
+      </p>
+    ),
+  },
+  {
+    title: "Wash with Awareness",
+    type: "be",
+    desc: (
+      <p>
+        When you wash your hands today, be aware of the full experience.
+        <br />
+        <br />
+        Notice the sound of the faucet, the wetness and temperature of the
+        water, the scent and slipperiness of the soap, the movements of your
+        hands against each other, and the sensations of drying your hands.
+        <br />
+        <br />
+        Finally, be aware of the feeling of having just-washed hands.
+      </p>
+    ),
+  },
+  {
+    title: "A Body That Works",
+    type: "be",
+    desc: (
+      <p>
+        Make a mental list of all the ways your body is working well, even if
+        you're dealing with a chronic health issue.
+        <br />
+        <br />
+        Notice all the systems that have to function to keep you alive and allow
+        you to experience life, like your brain, lungs, and heart.
+        <br />
+        <br />
+        More in our lives is often right than we realize.
+      </p>
+    ),
+  },
 ];
 export default cardsData;
