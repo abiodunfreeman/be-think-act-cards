@@ -5,7 +5,9 @@
   padding: 10px;
   gap: 20px;
 }
-
+body {
+  background-color: rgb(132, 182, 161);
+}
 .App h1 {
   text-align: center;
 }

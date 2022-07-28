@@ -1,16 +1,17 @@
-### About
+## Be Think Act
 
-A simple project to help increase mindfulness in day to day life
+Users can click through different seriers of cards that are meant to provoke some self-inquiry throughout the day.
 
-### To-Do
+**Link to project:** [Be-Think-Act](https://be-think-act.vercel.app/)
 
-- add a previous button
-- add a random button (brings up a random card)
-- add 10 total cards to each type
-- maybe add a background behind the cards?
+![alt tag](be-think-act.png)
 
-### Links
+## How It's Made:
 
-[Live Preview](https://wondrous-pony-d30df4.netlify.app/) <br/>
-[github](https://github.com/bornduringwar/be-think-act-cards)<br/>
-[twitter](https://twitter.com/bornduringwar)
+**Tech used:** React, SASS
+
+Built using React and SASS to make the css a bit less painful. Made very good use of custom react components and JS methods like filter and map.
+
+## Lessons Learned:
+
+Learnt about the power of using components and advanced javascript methods to dynamically create many pieces of the UI. I also came to understand why databases and API's are such powerful tools.
